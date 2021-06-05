@@ -1,0 +1,22 @@
+<div class="container">
+    
+    <img class="compimage"src="compimage.jpg" alt="compimage"></a>
+<div>
+        <h2>Leaderboard</h2>
+    </div>
+    <div>
+        {{#each fishers}}
+        <div class="fisher-list">
+            <a href="/fisher/{{id}}"><img class="image" src="{{image}}" alt="{{name}}"></a>
+            <h3>{{position}}</h3>
+            <h4>Name: {{firstName}} {{lastName}}</h4>
+            <h4>From: {{location}}</h4>
+            <h4>Caught: {{species}} : {{caught}}</h4>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="form">
+        {{>form}}
+    </div>
+</div>

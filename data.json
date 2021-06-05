@@ -1,0 +1,49 @@
+{
+  "fishers": [
+    {
+      "id": 1,
+      "image": "/Fisher Image/fisher1.jpeg",
+      "firstName": "Sammy",
+      "lastName": "Penguin",
+      "location": "Wellington",
+      "species": "Snapper",
+      "caught": 1
+    },
+    {
+      "id": 2,
+      "image": "/Fisher Image/fisher2.jpeg",
+      "firstName": "John",
+      "lastName": "Penguin",
+      "location": "Auckland",
+      "species": "Bluecod",
+      "caught": 1
+    },
+    {
+      "id": 3,
+      "image": "/Fisher Image/fisher3.jpeg",
+      "firstName": "Jacob",
+      "lastName": "West",
+      "location": "Tauranga",
+      "species": "Snapper",
+      "caught": 2
+    },
+    {
+      "id": 4,
+      "image": "/Fisher Image/fisher4.jpeg",
+      "firstName": "Sammy",
+      "lastName": "Penguin",
+      "location": "Wellington",
+      "species": "Snapper",
+      "caught": 1
+    },
+    {
+      "id": 5,
+      "image": "/Fisher Image/fisher5.jpeg",
+      "firstName": "Sammy",
+      "lastName": "Penguin",
+      "location": "Wellington",
+      "species": "Snapper",
+      "caught": 1
+    }
+  ]
+}
