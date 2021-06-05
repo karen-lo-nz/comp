@@ -7,11 +7,12 @@
     <div>
         {{#each fishers}}
         <div class="fisher-list">
-            <a href="/fisher/{{id}}"><img class="image" src="{{image}}" alt="{{name}}"></a>
+           <img class="image" src="{{image}}" alt="{{name}}">
             <h3>{{position}}</h3>
             <h4>Name: {{firstName}} {{lastName}}</h4>
             <h4>From: {{location}}</h4>
-            <h4>Caught: {{species}} : {{caught}}</h4>
+            <h4> Species: {{species}} </h4>
+            <h4>Caught: {{caught}}</h4>
         </div>
         {{/each}}
     </div>

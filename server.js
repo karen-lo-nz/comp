@@ -46,7 +46,7 @@ server.post('/', (req, res) => {
         const viewData = JSON.parse(data) //convert json file to object
         const newEntry = {
             "id": (viewData.fishers.length) + 1,
-            "image": "/Fisher Image/fisher6.jpeg",
+            "image": "/fisherimage/fisher6.jpeg",
             "firstName": req.body.fname,
             "lastName": req.body.lname,
             "location": req.body.location,
